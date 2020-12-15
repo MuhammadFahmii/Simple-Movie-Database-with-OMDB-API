@@ -10,18 +10,21 @@
 
 1. Get a free API Key at [http://www.omdbapi.com/](http://www.omdbapi.com/)
 2. Clone the repo
-   ```sh
+   ```
    git clone https://github.com/MuhammadFahmii/Simple-Movie-Search-Engine-with-OMDB-API.git
    ```
 3. Install NPM packages
-   ```sh
+   ```
    npm install
    ```
 4. Enter your API in `routes/omdb/movie.js`
-   ```JS
+   ```
    const API_KEY = 'ENTER YOUR API KEY';
    ```
-
+5. Run server
+   ```
+   npm run start
+   ```
 ### Support
 
 If you have any question, feel free to email me.
