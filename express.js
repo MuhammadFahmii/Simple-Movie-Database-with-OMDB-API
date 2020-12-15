@@ -20,9 +20,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/favicon.ico", (req, res) => {
-res.status(204):
-});
+app.get("/favicon.ico", (req, res) => res.status(204));
 
 // Homepage Route
 app.use("/api/omdb", require("./routes/omdb/movie"));
