@@ -2,15 +2,9 @@
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)&nbsp;![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FMuhammadFahmii%2FSimple-Movie-Database-with-OMDB-API)
 
 ### Build With
+
 - NodeJs
 - Express JS
-
-### Pre requisites
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
   
 ### Installation
 
@@ -29,5 +23,9 @@ This is an example of how to list things you need to use the software and how to
    ```
 
 ### Support
-----------
+
 If you have any question, feel free to email me.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
