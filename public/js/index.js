@@ -8,8 +8,8 @@ document.addEventListener("click", async function (e) {
     }
   } else if (e.target.classList.contains("search-button")) {
     try {
-      const inputKeyword = document.querySelector(".input-keyword").value;
-      const movie = await getMovie(inputKeyword);
+      const inputKeyword = document.querySelector(".input-keyword");
+      const movie = await getMovie(inputKeyword.value);
       updateUI(movie);
       inputKeyword.value = "";
     } catch (Error) {
