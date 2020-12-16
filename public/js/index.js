@@ -23,7 +23,7 @@ document.addEventListener("click", async function (e) {
 });
 
 function getMovie(keyword) {
-  return fetch(`http://localhost:5000/api/omdb/?s=${keyword}`)
+  return fetch(`https://searchmoviee.herokuapp.com/api/omdb/?s=${keyword}`)
     .then((res) => res.json())
     .then((data) => {
       if (data.Response) throw new Error(data.Error);
@@ -32,7 +32,7 @@ function getMovie(keyword) {
 }
 
 function getMovieDetail(imdbid) {
-  return fetch(`http://localhost:5000/api/omdb/?i=${imdbid}`)
+  return fetch(`https://searchmoviee.herokuapp.com/api/omdb/?i=${imdbid}`)
     .then((res) => res.json())
     .then((data) => data);
 }
