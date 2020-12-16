@@ -16,8 +16,14 @@ app.set("view engine", "handlebars");
 // Rendering template engine
 app.get("/", (req, res) => {
   res.render("index", {
-    title: "Movie Database",
+    title: "Movie App",
   });
+});
+
+// Handling empty favicon.ico
+app.get("/favicon.ico", (req, res) => {
+  res.status(204);
+  res.end();
 });
 
 // Homepage Route

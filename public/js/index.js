@@ -25,13 +25,16 @@ document.addEventListener("click", async function (e) {
 function getMovie(keyword) {
   return fetch(`http://localhost:5000/api/omdb/?s=${keyword}`)
     .then((res) => res.json())
-    .then((hasil) => hasil);
+    .then((data) => {
+      if (data.Response) throw new Error(data.Error);
+      return data;
+    });
 }
 
 function getMovieDetail(imdbid) {
   return fetch(`http://localhost:5000/api/omdb/?i=${imdbid}`)
     .then((res) => res.json())
-    .then((hasil) => hasil);
+    .then((data) => data);
 }
 
 function showMovie({ Poster, Title, Year, imdbID }) {
