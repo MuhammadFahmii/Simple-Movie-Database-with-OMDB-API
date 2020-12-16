@@ -2,8 +2,7 @@
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)&nbsp;![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FMuhammadFahmii%2FSimple-Movie-Database-with-OMDB-API)
 
 ### DEMO APP
-[http://searchmoviee.herokuapp.com](http://searchmoviee.herokuapp.com)
-
+[http://searchmoviee.herokuapp.com](https://searchmoviee.herokuapp.com/)
 ### Build With
 
 - NodeJs
