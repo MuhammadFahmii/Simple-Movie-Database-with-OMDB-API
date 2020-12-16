@@ -1,7 +1,7 @@
 const app = require("express");
 const router = app.Router();
 const axios = require("axios");
-const API_KEY = "c8ecce7c";
+const API_KEY = "ENTER YOUR APIKEY";
 
 router.get("/", async (req, res) => {
   if (req.query.s === "" || req.query.s) {
